@@ -6,7 +6,7 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/20 23:26:31 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/20 23:33:25 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/10/30 01:53:03 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,7 @@ t_list	*ft_lstlast(t_list *lst)
 	while (lst)
 	{
 		if (lst->next == NULL)
-		{
 			return (lst);
-		}
 		lst = lst->next;
 	}
 	return (NULL);
