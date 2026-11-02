@@ -6,7 +6,7 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 16:19:03 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/14 21:18:13 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/02 21:21:58 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,11 @@ char	*ft_strchr(const char *s, int c)
 	i = 0;
 	while (s[i])
 	{
-		if (s[i] == c)
+		if ((unsigned char) s[i] == (unsigned char) c)
 			return ((char *) & s[i]);
 		i++;
 	}
-	if (s[i] == c)
+	if ((unsigned char) s[i] == (unsigned char) c)
 		return ((char *) & s[i]);
 	return (NULL);
 }

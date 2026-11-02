@@ -6,7 +6,7 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 18:56:33 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/24 23:32:54 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/02 21:49:32 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	p = malloc((len + 1) * (sizeof(char)));
 	if (!p)
 		return (NULL);
-	while (s[start] && i < len)
+	while (i < len)
 	{
 		p[i] = s[start];
 		i++;

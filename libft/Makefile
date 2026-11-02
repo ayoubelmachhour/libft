@@ -52,11 +52,14 @@ OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)
 
-%.o: %.c
+%.o: %.c libft.h
 	$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
+
+program: main.o $(OBJS)
+	cc $(CFLAGS) main.o $(OBJS) -o program
 
 clean:
 	rm -f $(OBJS)

@@ -6,7 +6,7 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 23:55:28 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/25 16:55:58 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/02 21:34:09 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,18 +41,17 @@ static int	ft_cw(char const *s, char c)
 			while (s[i] && s[i] != c)
 				i++;
 		}
-		i++;
+		else
+			i++;
 	}
 	return (count);
 }
 
-static char	**ft_sp(char **p, char c, char const *s)
+static char	**ft_sp(char **p, char c, char const *s, int i)
 {
-	int	i;
 	int	count;
 	int	l;
 
-	i = 0;
 	l = 0;
 	while (s[i])
 	{
@@ -69,7 +68,8 @@ static char	**ft_sp(char **p, char c, char const *s)
 			}
 			l++;
 		}
-		i++;
+		else
+			i++;
 	}
 	p[l] = NULL;
 	return (p);
@@ -79,11 +79,13 @@ char	**ft_split(char const *s, char c)
 {
 	char	**p;
 	int		cw;
+	int		i;
 
 	cw = ft_cw(s, c);
 	p = malloc(sizeof(char *) * (cw + 1));
 	if (!p)
 		return (NULL);
-	p = ft_sp(p, c, s);
+	i = 0;
+	p = ft_sp(p, c, s, i);
 	return (p);
 }
