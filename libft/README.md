@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by <ayel-mac>.*
+*This project has been created as part of the 42 curriculum by ayel-mac.*
 
 # Libft
 
@@ -36,12 +36,6 @@ Compile the library:
 make
 ```
 
-Compile the bonus functions:
-
-```bash
-make bonus
-```
-
 Remove object files:
 
 ```bash
@@ -66,18 +60,6 @@ Include the header in your C source file:
 
 ```c
 #include "libft.h"
-```
-
-Compile your program with the library:
-
-```bash
-cc main.c -L. -lft -I. -o program
-```
-
-Run it:
-
-```bash
-./program
 ```
 
 ## Library Description
@@ -151,9 +133,9 @@ Functions used to write characters, strings, and numbers to a specified file des
 | `ft_putendl_fd` | Writes a string followed by a newline. |
 | `ft_putnbr_fd` | Writes an integer to a file descriptor. |
 
-### 6. Linked List Functions (Bonus)
+### 6. Linked List Functions
 
-The bonus part introduces singly linked lists using the following structure:
+The part introduces singly linked lists using the following structure:
 
 ```c
 typedef struct s_list
@@ -183,20 +165,12 @@ Each node contains:
 
 The following resources were useful for understanding C programming, memory management, and the functions recreated in this project:
 
-- [Linux man pages](https://man7.org/linux/man-pages/) – Documentation for standard C and system functions.
-- [cppreference – C library](https://en.cppreference.com/w/c) – C language and standard library reference.
-- [GNU C Library Documentation](https://www.gnu.org/software/libc/manual/) – Documentation about standard library functions.
-- [42 The Norm](https://github.com/42School/norminette) – Coding standards and Norminette.
-
-### AI Usage
-
 AI tools were used as learning and debugging assistance throughout the development of this project.
 
 They were used for:
 - Understanding C concepts such as pointers, pointer arithmetic, memory allocation, and data structures.
 - Explaining the behavior of standard C library functions.
-- Identifying and debugging errors in function implementations.
-- Understanding memory errors reported by Valgrind.
+- Understanding memory errors 
 - Reviewing function logic and discussing edge cases.
 - Understanding Makefiles and static library compilation.
 

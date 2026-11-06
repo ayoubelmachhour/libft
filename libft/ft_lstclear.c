@@ -6,12 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 00:17:57 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/21 00:24:53 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:22:11 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {

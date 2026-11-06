@@ -6,11 +6,10 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 21:31:36 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/11/05 18:12:45 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:47:25 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)

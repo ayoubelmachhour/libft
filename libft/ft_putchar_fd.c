@@ -6,11 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 22:41:03 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/24 19:49:31 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:46:27 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
+#include "libft.h"
 
 void	ft_putchar_fd(char c, int fd)
 {

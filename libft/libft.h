@@ -6,7 +6,7 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 00:21:59 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/11/02 20:04:17 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:48:33 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 # define LIBFT_H
 
 # include <stddef.h>
+# include <stdlib.h>
+# include <unistd.h>
 
 typedef struct s_list
 {
@@ -63,10 +65,7 @@ void			ft_lstadd_back(t_list **lst, t_list *new);
 void			ft_lstdelone(t_list *lst, void (*del)(void *));
 void			ft_lstclear(t_list **lst, void (*del)(void *));
 void			ft_lstiter(t_list *lst, void (*f)(void *));
-//
-
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
-
-//
+t_list			*ft_lstmap(t_list *lst, void *(*f)(void *),
+					void(*del)(void *));
 
 #endif

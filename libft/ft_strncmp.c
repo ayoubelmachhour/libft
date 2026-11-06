@@ -6,11 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 22:22:24 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/15 22:52:18 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:34:57 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {

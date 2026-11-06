@@ -6,11 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/14 22:41:37 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/24 21:02:11 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:40:55 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 void	*ft_memset(void *s, int c, size_t n)
 {

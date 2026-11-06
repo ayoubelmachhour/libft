@@ -6,12 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/21 00:31:45 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/21 01:04:47 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:25:23 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stddef.h>
 
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {

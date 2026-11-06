@@ -6,11 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 00:48:46 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/17 21:52:23 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:35:04 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 char	*ft_strnstr(const char *big, const char *little, size_t len)
 {

@@ -6,12 +6,10 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 18:56:33 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/11/02 21:49:32 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:47:48 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdlib.h>
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)

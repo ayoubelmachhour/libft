@@ -6,14 +6,13 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 22:31:48 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/25 00:12:03 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:36:32 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
-int	ko(char s, char const *set)
+static int	ko(char s, char const *set)
 {
 	int	i;
 

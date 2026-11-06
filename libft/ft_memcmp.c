@@ -6,11 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 22:07:40 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/15 22:14:59 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:41:17 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {

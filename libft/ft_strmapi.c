@@ -6,12 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 17:01:33 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/21 01:11:35 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:47:36 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

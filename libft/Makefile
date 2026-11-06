@@ -58,9 +58,6 @@ all: $(NAME)
 $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS)
 
-program: test.o $(OBJS)
-	cc $(CFLAGS) test.o $(OBJS) -o program
-
 clean:
 	rm -f $(OBJS)
 

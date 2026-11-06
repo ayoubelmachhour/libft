@@ -6,11 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/15 23:01:01 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/17 19:14:26 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:34:16 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
+#include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 {

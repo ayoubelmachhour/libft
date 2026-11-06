@@ -6,12 +6,11 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/16 20:24:27 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/10/17 21:54:34 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:47:15 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stddef.h>
-#include <stdlib.h>
+#include "libft.h"
 
 char	*ft_strdup(const char *s)
 {

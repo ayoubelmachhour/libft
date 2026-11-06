@@ -6,11 +6,10 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 23:55:28 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/11/02 21:34:09 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/06 23:47:01 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
 #include "libft.h"
 
 static void	ft_free(char **p, int l)
