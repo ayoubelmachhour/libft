@@ -6,7 +6,7 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/18 17:01:33 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/11/06 23:47:36 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/10 21:19:56 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	unsigned int	i;
 	char			*p;
 
+	if (!s || !f)
+		return (NULL);
 	i = 0;
 	while (s[i])
 		i++;

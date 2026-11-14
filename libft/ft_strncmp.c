@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/15 22:22:24 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/11/06 23:34:57 by ayel-mac         ###   ########.fr       */
+/*   Created: 2026/10/15 22:22:24 by username          #+#    #+#             */
+/*   Updated: 2026/11/12 14:39:22 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
 	size_t	i;
 
+	if (!s1 && !s2)
+		return (0);
 	i = 0;
 	while (i < n)
 	{

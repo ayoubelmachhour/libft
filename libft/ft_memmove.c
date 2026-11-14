@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/15 00:54:38 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/11/06 23:41:02 by ayel-mac         ###   ########.fr       */
+/*   Created: 2026/10/15 00:54:38 by username          #+#    #+#             */
+/*   Updated: 2026/11/12 14:39:12 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,9 +18,11 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	unsigned char		*p;
 	const unsigned char	*s;
 
+	if (!dest && !src)
+		return (NULL);
 	p = (unsigned char *) dest;
 	s = (const unsigned char *) src;
-	if (s > p)
+	if (p < s)
 	{
 		i = 0;
 		while (i < n)
@@ -29,14 +31,12 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 			i++;
 		}
 	}
-	else if (p > s)
+	else
 	{
-		i = n;
-		while (i > 0)
+		while (n-- > 0)
 		{
-			i--;
-			p[i] = s[i];
+			p[n] = s[n];
 		}
 	}
-	return (p);
+	return (dest);
 }

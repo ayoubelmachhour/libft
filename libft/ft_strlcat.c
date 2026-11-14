@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                       :::      ::::::::    */
-/*   ft_strlcat.c                                      :+:      :+:    :+:    */
-/*                                                   +:+ +:+         +:+      */
-/*   By: ayel-mac <ayel-mac@student.1337.ma>       #+#  +:+       +#+         */
-/*                                               +#+#+#+#+#+   +#+            */
-/*   Created: 2026/10/15 23:41:32 by ayel-mac         #+#    #+#              */
-/*   Updated: 2026/11/08 21:37:21 by ayel-mac        ###   ########.fr        */
+/*                                                        :::      ::::::::   */
+/*   ft_strlcat.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/15 23:41:32 by ayel-mac          #+#    #+#             */
+/*   Updated: 2026/11/10 18:42:07 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 
 	lendst = 0;
 	lensrc = 0;
-	while (dst[lendst] && lendst < size)
+	while (lendst < size && dst[lendst])
 		lendst++;
 	while (src[lensrc])
 		lensrc++;

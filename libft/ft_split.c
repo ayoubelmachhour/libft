@@ -6,7 +6,7 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 23:55:28 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/11/06 23:47:01 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/10 18:39:37 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,6 +80,8 @@ char	**ft_split(char const *s, char c)
 	int		cw;
 	int		i;
 
+	if (!s)
+		return (NULL);
 	cw = ft_cw(s, c);
 	p = malloc(sizeof(char *) * (cw + 1));
 	if (!p)

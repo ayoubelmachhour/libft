@@ -6,7 +6,7 @@
 /*   By: ayel-mac <ayel-mac@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/10/17 22:31:48 by ayel-mac          #+#    #+#             */
-/*   Updated: 2026/11/06 23:36:32 by ayel-mac         ###   ########.fr       */
+/*   Updated: 2026/11/10 18:38:43 by ayel-mac         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,8 @@ char	*ft_strtrim(char const *s1, char const *set)
 	int		i;
 	int		l;
 
+	if (!s1 || !set)
+		return (NULL);
 	l = 0;
 	while (s1[l])
 		l++;
